@@ -1,3 +1,30 @@
+*{
+    //border: 1px solid black;
+}
 body{
-background-image: url(/images/pattern-background-desktop.svg)
+background:center top no-repeat  url(/images/pattern-background-desktop.svg);
+background-size: 100% auto;
+background-color: #e0e8ff;
+font-family: "Red Hat Display";
+}
+
+main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    border-radius:15px;
+    width:450px;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.card_header{
+    
+    
 }
