@@ -78,15 +78,20 @@ main {
     color: rgb(128, 134, 165);
 }
 
+
 .plan_selection_change{
     margin-left: auto ;
     color:#3829e0;
     font-weight: 900;
+    font-size: 14px;
+    text-decoration-line: underline;
 }
-.plan_selection:hover .plan_selection_change {
-    text-decoration-line:underline;
-    
+.plan_selection_change:hover {
+    color: rgb(118, 108, 241);
+    text-decoration-line: none;
 }
+
+
 .plan_selection:hover {
     background-color: #f8f9fe73;
     transition: background-color 0.2s linear;
