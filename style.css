@@ -8,10 +8,17 @@ background-color: #e0e8ff;
 font-family: "Red Hat Display";
 }
 
-h3{
+h2{
+    margin: 0;
+    font-size: 30px;
     font-weight: 900;
-    font-size: 15px;
+    color: #08163b;
 }
+
+.card_header {
+    height: 220px;
+}
+
 
 main {
     display:flex;
@@ -23,14 +30,21 @@ main {
 .card {
     border-radius:15px;
     width:450px;
+    min-width: 450px;
     text-align: center;
     overflow: hidden;
     background-color: white;
-
+    box-shadow: 0px 18px 30px -5px rgb(69 100 251 / 24%);
+    box-sizing: border-box;
 }
 
 .card_body{
-    padding: 48px;
+    padding: 45px 48px;
+}
+
+.card_body > p {
+    color: rgb(128, 134, 165);
+    line-height: 1.6;
 }
 
 .plan_selection {
@@ -38,22 +52,76 @@ main {
     align-items: center;
     justify-content: left;
     text-decoration-line: none;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #f8f9fe;
-    padding: 0px 20px;
-
+    padding: 0px 25px;
+    margin-bottom: 25px;
+    transition: 0.2s all;
 }
+
+.price {
+    color: #1f2f56;
+    
+}
+
+.plan_icon {
+    margin: 25px 0px;
+}
+
+.price h3 {
+    margin: 0px 20px;
+    font-weight: 900;
+    font-size: 15px;
+}
+.plan_price {
+    margin: 5px 20px 0px 20px;
+    color: rgb(128, 134, 165);
+}
+
 .plan_selection_change{
     margin-left: auto ;
+    color:#3829e0;
+    font-weight: 900;
 }
 .plan_selection:hover .plan_selection_change {
     text-decoration-line:underline;
+    
 }
 .plan_selection:hover {
     background-color: #f8f9fe73;
+    transition: 0.2s all;
 }
 
-.payment_button, .cancel.order {
+.payment_button, .cancel_order {
     display: block;
 }
 
+
+
+.payment_button {
+    margin-bottom: 25px;
+    padding: 15px;
+    box-shadow: 0px 13px 20px 5px rgba(57, 42, 225, 0.226);
+    border-radius: 10px;
+    background-color: rgb(56, 42, 225);
+    color: white;
+    text-decoration-line: none;
+    transition: 0.2s all;
+}
+
+.payment_button:hover {
+    background-color: rgb(118, 108, 241);;
+    transition: 0.2s all;
+}
+
+.cancel_order {
+    font-weight: 900;
+    color: rgb(128, 134, 165);
+    text-decoration-line: none;
+    font-size: 15px;
+}
+
+.cancel_order:hover {
+    color: #333;
+    
+}
