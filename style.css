@@ -56,7 +56,7 @@ main {
     background-color: #f8f9fe;
     padding: 0px 25px;
     margin-bottom: 25px;
-    transition: 0.2s all;
+    transition: background-color 0.2s linear;
 }
 
 .price {
@@ -89,7 +89,7 @@ main {
 }
 .plan_selection:hover {
     background-color: #f8f9fe73;
-    transition: 0.2s all;
+    transition: background-color 0.2s linear;
 }
 
 .payment_button, .cancel_order {
@@ -106,12 +106,12 @@ main {
     background-color: rgb(56, 42, 225);
     color: white;
     text-decoration-line: none;
-    transition: 0.2s all;
+    transition: background-color 0.2s linear;
 }
 
 .payment_button:hover {
-    background-color: rgb(118, 108, 241);;
-    transition: 0.2s all;
+    background-color: rgb(118, 108, 241);
+    transition: background-color 0.2s linear;
 }
 
 .cancel_order {
