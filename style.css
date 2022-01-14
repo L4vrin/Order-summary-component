@@ -8,6 +8,11 @@ background-color: #e0e8ff;
 font-family: "Red Hat Display";
 }
 
+h3{
+    font-weight: 900;
+    font-size: 15px;
+}
+
 main {
     display:flex;
     align-items: center;
@@ -24,7 +29,31 @@ main {
 
 }
 
-.card_header{
-    
-    
+.card_body{
+    padding: 48px;
 }
+
+.plan_selection {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-decoration-line: none;
+    border-radius: 10px;
+    background-color: #f8f9fe;
+    padding: 0px 20px;
+
+}
+.plan_selection_change{
+    margin-left: auto ;
+}
+.plan_selection:hover .plan_selection_change {
+    text-decoration-line:underline;
+}
+.plan_selection:hover {
+    background-color: #f8f9fe73;
+}
+
+.payment_button, .cancel.order {
+    display: block;
+}
+
