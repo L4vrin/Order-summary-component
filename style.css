@@ -14,7 +14,9 @@ background-color: #e0e8ff;
 font-family: "Red Hat Display";
 }
 
-
+h1 {
+    display: none;
+}
 
 h2{
     margin: 0;
