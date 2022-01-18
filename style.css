@@ -14,8 +14,8 @@ background-color: #e0e8ff;
 font-family: "Red Hat Display";
 }
 
-h1 {
-    
+header {
+    display: none;
 }
 
 h2{
